@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="view1" fx:id="view1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="265.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   
+         <children>
+            <TextField id="nombreText" fx:id="nombreText" alignment="CENTER_RIGHT" prefHeight="273.0" prefWidth="265.0" promptText="0.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <HBox id="cajaMadre" fx:id="cajaMadre" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="495.0" prefWidth="0.0">
+               <children>
+                  <VBox id="caja" fx:id="caja" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="104.0">
+                     <children>
+                        <HBox id="caja1" fx:id="caja1" prefHeight="57.0" prefWidth="106.0">
+                           <children>
+                              <Button id="siete" fx:id="siete" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="7" />
+                              <Button id="ocho" fx:id="ocho" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="8" />
+                           </children>
+                        </HBox>
+                        <HBox id="caja2" fx:id="caja2" prefHeight="57.0" prefWidth="106.0">
+                           <children>
+                              <Button id="cuatro" fx:id="cuatro" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="4" />
+                              <Button id="cinco" fx:id="cinco" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="5" />
+                           </children>
+                        </HBox>
+                        <HBox id="caja3" fx:id="caja3" prefHeight="57.0" prefWidth="106.0">
+                           <children>
+                              <Button id="uno" fx:id="uno" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="1" />
+                              <Button id="dos" fx:id="dos" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="2" />
+                           </children>
+                        </HBox>
+                        <Button id="cero" fx:id="cero" mnemonicParsing="false" prefHeight="57.0" prefWidth="104.0" text="0" />
+                     </children>
+                  </VBox>
+                  <VBox id="caja4" fx:id="caja4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="53.0">
+                     <children>
+                        <Button id="nueve" fx:id="nueve" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="9" />
+                        <Button id="seis" fx:id="seis" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="6" />
+                        <Button id="tres" fx:id="tres" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="3" />
+                        <Button id="punto" fx:id="punto" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="." />
+                     </children>
+                  </VBox>
+                  <VBox id="caja5" fx:id="caja5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="53.0">
+                     <children>
+                        <Button id="ce" fx:id="ce" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="CE" />
+                        <Button id="por" fx:id="por" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="*" />
+                        <Button id="menos" fx:id="menos" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="-" />
+                        <Button id="mas" fx:id="mas" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="+" />
+                     </children>
+                  </VBox>
+                  <VBox id="caja6" fx:id="caja6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="53.0">
+                     <children>
+                        <Button id="c" fx:id="c" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="C" />
+                        <Button id="dividido" fx:id="dividido" mnemonicParsing="false" prefHeight="49.0" prefWidth="52.0" text="/" />
+                        <Button id="igual" fx:id="igual" mnemonicParsing="false" prefHeight="95.0" prefWidth="52.0" text="=">
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#101111" offset="0.007662835249042145" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+ 
+</VBox>
